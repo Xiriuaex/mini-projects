@@ -1,0 +1,124 @@
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+h1 {
+  display: inline-block;
+  font-family: "Sacramento", cursive;
+  margin: 100px auto 0 auto;
+  font-size: 5.625rem;
+  color: #66bfbf;
+}
+.subtitle {
+  font-family: "Montserrat", sans-serif;
+  margin: 2rem auto 6.25rem auto;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  margin: 2rem auto 6.25rem auto;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: 600;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+p {
+  font-size: larger;
+  margin-bottom: 6.25rem;
+  color: #40514e;
+  line-height: 2;
+}
+
+.container {
+  background-color: #f8ecd1;
+  position: relative;
+  padding-top: 6.25rem;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 31.25rem;
+  top: 6.25rem;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 31.25rem;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 9.375rem auto 9.375rem auto;
+  text-align: left;
+}
+.chillies {
+  width: 25%;
+  float: left;
+  margin-right: 1.875rem;
+}
+.computer {
+  width: 25%;
+  float: right;
+  margin-left: 1.875rem;
+}
+.pfp {
+  margin-top: 5%;
+  width: 15%;
+}
+.intro {
+  margin: auto;
+  width: 30%;
+  margin-bottom: 5%;
+}
+hr {
+  border-style: dotted;
+  border-color: #eaf6f6;
+  border-bottom: none;
+  border-width: 0.5rem;
+  width: 4%;
+  margin-bottom: 5%;
+}
+.contact-me {
+  position: relative;
+  padding-bottom: 6.25rem;
+}
+.btn {
+  -webkit-border-radius: 40;
+  -moz-border-radius: 40;
+  border-radius: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+  color: #e8ebeb;
+  font-size: 1.75rem;
+  background: #49bdbd;
+  padding: 0.9375rem 1.5625rem 0.9375rem 1.5625rem;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #60a8a8;
+  text-decoration: none;
+}
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 70px 0 40px 0;
+}
+
+.cc {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  margin: 50px auto 0 auto;
+}
+a {
+  margin: 10px 20px;
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffffff;
+}
