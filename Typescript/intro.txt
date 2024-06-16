@@ -1,0 +1,24 @@
+Typescript:
+    Superset of Javascript.
+    Allows us to write more precise js code with less error.
+
+    All the codes are finally compiled into js
+
+TS not reinventing js
+
+Type safety.
+
+
+What typescript does is Static Checking
+
+Analyze the code as we type. That's it.
+
+Gives hint about what we are doing wrong.
+
+TS transpiled into js
+
+TS is a dev tool, not a language itself, as the project still runs js.
+wrapper around js. helps to write better code.
+
+
+
