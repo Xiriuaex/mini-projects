@@ -1,0 +1,34 @@
+ 
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbarBrand" href="/">MyBlogs</a>
+      <%if (user) { %>
+        <a class="navbarBrand" href="/">Welcome <%= name %></a>
+      <%}%>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          
+          <%if (user) { %>
+            <li class="nav-item">
+              <a class="navLink" href="/compose">Compose</a>
+            </li>
+            <li class="nav-item">
+              <a class="navLink" href="/logout">Log Out</a>
+            </li>
+          <%} else if(!user){%>
+          <li class="nav-item">
+            <a class="navLink" href="/login">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="navLink" href="/register">SignUp</a>
+          </li>
+          <%}%>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
